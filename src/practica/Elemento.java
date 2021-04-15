@@ -1,0 +1,30 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package practica;
+
+/**
+ *
+ * @author Carlos Loaeza
+ */
+public class Elemento {
+    private String dato;
+
+    public Elemento() {
+    }
+
+    public String getDato() {
+        return dato;
+    }
+
+    public void setDato(String dato) {
+        this.dato = dato;
+    }
+    
+    public String toString(){
+        return "Informacion: "+dato;
+    }
+    
+}
